@@ -1,4 +1,4 @@
-# Hackerpad 9000
+# Hackerpad 9000( spotify desk thing )
 
 hacker pad 9000 is a custom key macro pad with two rotating dials and 6 customisable keys with a OLED screen 
 made with love , basicly my ittration for spotify car thing for ur desk !.

@@ -2,7 +2,10 @@
 
 hacker pad 9000 is a custom key macro pad with two rotating dials and 6 customisable keys with a OLED screen 
 made with love , basicly my ittration for spotify car thing for ur desk !.
-<img src=assets/key mapping.png alt+"Schematic" width="500"/>
+
+<img src=assets/key mapping.png alt="Schematic" width="500"/>
+
+-------------------------------------------------------------------------------------------------------------
 ## Features:
 - deal part case w easy to assemble.
 - 128x32 OLED Display
@@ -10,6 +13,7 @@ made with love , basicly my ittration for spotify car thing for ur desk !.
 - 4 heat threaded inserts and bolt it tightly 
 - 6 Keys
 
+-------------------------------------------------------------------------------------------------------------
 ## CAD Model:
 Everything fits together using 4 M3 Bolts and heatset inserts. 4 for the case
 it has two part cover with main body and front lid
@@ -19,6 +23,7 @@ it has two part cover with main body and front lid
 Made in Fusion360.
 
 
+-------------------------------------------------------------------------------------------------------------
 ## PCB
 Here's my PCB! It was made in KiCad.
 
@@ -30,8 +35,10 @@ PCB
 
 MX styled keys used 
 
+-------------------------------------------------------------------------------------------------------------
 ## Firmware Overview
 
+-------------------------------------------------------------------------------------------------------------
 ## BOM:
 Here should be everything you need to make this hackpad
   

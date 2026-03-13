@@ -1,3 +1,5 @@
+![thunail](https://github.com/nikunj-Swarnkar/Spotify_macro_pad_thingy/blob/063dcebc8efd60d11fbcbaca6b545f732a74dc8e/assets/thumnail.png)
+
 # Spotify Marcro-pad Thingy
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Spotify__marcro__pad__thingy-181717?logo=github)](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy)

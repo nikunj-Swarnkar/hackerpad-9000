@@ -16,6 +16,7 @@ This section explains how to install the firmware on the macropad and run the Sp
 
 ### 1. Install CircuitPython
 
+<img width="1200" height="732" alt="Image" src="https://github.com/user-attachments/assets/201587a3-0d87-4e92-9ec0-b6e304b6d9ee" />
 1. Plug the **Seeed XIAO RP2040** into your computer.
 2. Double-tap the **RESET** button on the board.
 
@@ -24,6 +25,7 @@ A new drive called:
 ```
 RPI-RP2
 ```
+<img width="161" height="61" alt="Image" src="https://github.com/user-attachments/assets/994778ac-d963-497e-9082-71802b4e43b6" />
 
 will appear.
 
@@ -38,6 +40,7 @@ The board will reboot and a new drive will appear:
 ```
 CIRCUITPY
 ```
+<img width="328" height="104" alt="Image" src="https://github.com/user-attachments/assets/d8bd3687-5024-4369-b57f-6444f9b3762c" />
 
 ---
 
@@ -54,54 +57,32 @@ rgb_manager.py
 
 The folder should look like:
 
-```
-CIRCUITPY
- ├── code.py
- ├── display_manager.py
- ├── duck_animation.py
- ├── rgb_manager.py
- └── lib
-```
+<img width="216" height="199" alt="Image" src="https://github.com/user-attachments/assets/5c5a90e5-b683-4de4-ab66-85b97c68adbe" />
 
 ---
 
-### 3. Install Required Libraries
-
-Inside the `CIRCUITPY/lib` folder install the following libraries:
-
-```
-adafruit_ssd1306
-neopixel
-kmk
-```
-
-These libraries allow the firmware to control:
-
-* the OLED display
-* RGB LEDs
-* keyboard matrix and encoders
-
----
-
-### 4. Setup the Spotify Bridge
+### 3. Setup the Spotify Bridge
 
 Navigate to the bridge folder:
 
 ```
 spotify_bridge/
 ```
+<img width="200" height="179" alt="Image" src="https://github.com/user-attachments/assets/a5ffc728-c5b6-4f41-a48e-1bc4f436cd6e" />
 
 Run the bridge application:
 
 ```
 spotify_bridge.exe
 ```
+<img width="177" height="42" alt="Image" src="https://github.com/user-attachments/assets/67501562-c4c1-4567-a754-8b5ec470e86c" />
 
-or run the Python script:
+or run the Python script at */firmware/spotify_bridge/code*: 
 
 ```
 python spotify_bridge.py
 ```
+<img width="165" height="34" alt="Image" src="https://github.com/user-attachments/assets/6eb01a8b-7a46-43b6-860b-7de22918cbc3" />
 
 The bridge connects to the Spotify API and communicates with the keyboard via USB serial.
 
@@ -109,31 +90,30 @@ The bridge connects to the Spotify API and communicates with the keyboard via US
 
 ### 5. Configure Spotify API
 
+<img width="1504" height="789" alt="Image" src="https://github.com/user-attachments/assets/d7ac8dd7-f009-4ba3-b774-0ef18fa8f9b8" />
+
 Create a Spotify developer application:
 
 https://developer.spotify.com/dashboard
+<img width="1919" height="960" alt="Image" src="https://github.com/user-attachments/assets/a2a13d93-16a8-422c-a50c-5fabf04615b7" />
+
+Copy your credentials:
+<img width="1824" height="499" alt="Image" src="https://github.com/user-attachments/assets/d1f8ab9a-eea6-405b-af02-bf458400aa09" />
 
 Add the following redirect URI:
 
 ```
 http://localhost:8888/callback
 ```
-
-Copy your credentials into:
-
-```
-spotify_bridge/res/config.json
-```
-
-Example configuration:
+and 
+APIs used:
 
 ```
-{
-  "client_id": "YOUR_CLIENT_ID",
-  "client_secret": "YOUR_CLIENT_SECRET"
-}
+Web API
 ```
 
+Then 
+<img width="1494" height="776" alt="Image" src="https://github.com/user-attachments/assets/1de7d952-d734-4cfa-821f-702e2ade3822" />
 ---
 
 ### 6. Running the System
@@ -148,29 +128,6 @@ You can now control Spotify using the macropad.
 ---
 
 ### Troubleshooting
-
-**OLED not displaying**
-
-Check the I2C wiring:
-
-```
-SDA → D4
-SCL → D5
-```
-
-**Encoders not responding**
-
-Verify encoder pins:
-
-```
-Encoder 1
-A → D0
-B → D1
-
-Encoder 2
-A → D6
-B → D9
-```
 
 **Spotify data not updating**
 

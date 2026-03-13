@@ -1,18 +1,19 @@
-# How to run this. 
+# How to Run
 
-> TO install this *RUN* spotify_bridge.exe 
+To install, run `spotify_bridge.exe`.
 
-# if your Wonding what does the /res/oled_test_app.exe do 
+---
 
-> ## run it with *--port COM#*
+## What does `oled_test_app.exe` do?
 
-### COM# is the port in which the Macro-pad is on
+Run it with the `--port` flag, where `COM#` is the port your macropad is connected to:
+
 ```
 oled_test_app --port COM#
 ```
-or 
 
-run a simple Demo with
+Or run a simple demo with:
+
 ```
 oled_test_app --demo
 ```
